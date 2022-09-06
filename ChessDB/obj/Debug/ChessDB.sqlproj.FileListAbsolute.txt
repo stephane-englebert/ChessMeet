@@ -1,0 +1,6 @@
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ChessDB\bin\Debug\ChessDB.dacpac
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ChessDB\bin\Debug\ChessDB.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ChessDB\bin\Debug\ChessDB.pdb
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ChessDB\obj\Debug\ChessDB.sqlproj.AssemblyReference.cache
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ChessDB\obj\Debug\ChessDB.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ChessDB\obj\Debug\ChessDB.pdb

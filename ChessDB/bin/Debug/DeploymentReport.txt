@@ -1,0 +1,35 @@
+﻿** Met en surbrillance
+     Tables à reconstruire
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Supprimer
+       [dbo].[CK_matches_result] (Contrainte de validation)
+       [dbo].[CK_members_birthdate] (Contrainte de validation)
+       [dbo].[CK_members_elo] (Contrainte de validation)
+       [dbo].[CK_members_gender] (Contrainte de validation)
+       [dbo].[CK_members_role] (Contrainte de validation)
+       [dbo].[CK_tournaments_elo_max] (Contrainte de validation)
+       [dbo].[CK_tournaments_elo_min] (Contrainte de validation)
+       [dbo].[CK_tournaments_players_max] (Contrainte de validation)
+       [dbo].[CK_tournaments_players_min] (Contrainte de validation)
+       [dbo].[CK_tournaments_status] (Contrainte de validation)
+     Créer
+       [dbo].[CK_matches_result] (Contrainte de validation)
+       [dbo].[CK_members_birthdate] (Contrainte de validation)
+       [dbo].[CK_members_elo] (Contrainte de validation)
+       [dbo].[CK_members_gender] (Contrainte de validation)
+       [dbo].[CK_members_role] (Contrainte de validation)
+       [dbo].[CK_tournaments_elo_max] (Contrainte de validation)
+       [dbo].[CK_tournaments_elo_min] (Contrainte de validation)
+       [dbo].[CK_tournaments_players_max] (Contrainte de validation)
+       [dbo].[CK_tournaments_players_min] (Contrainte de validation)
+       [dbo].[CK_tournaments_status] (Contrainte de validation)
+
+** Actions de support

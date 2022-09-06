@@ -1,0 +1,12 @@
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\DalChessMeet\bin\Debug\net6.0\DalChessMeet.deps.json
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\DalChessMeet\bin\Debug\net6.0\DalChessMeet.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\DalChessMeet\bin\Debug\net6.0\DalChessMeet.pdb
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\DalChessMeet\obj\Debug\net6.0\DalChessMeet.csproj.AssemblyReference.cache
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\DalChessMeet\obj\Debug\net6.0\DalChessMeet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\DalChessMeet\obj\Debug\net6.0\DalChessMeet.AssemblyInfoInputs.cache
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\DalChessMeet\obj\Debug\net6.0\DalChessMeet.AssemblyInfo.cs
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\DalChessMeet\obj\Debug\net6.0\DalChessMeet.csproj.CoreCompileInputs.cache
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\DalChessMeet\obj\Debug\net6.0\DalChessMeet.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\DalChessMeet\obj\Debug\net6.0\refint\DalChessMeet.dll
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\DalChessMeet\obj\Debug\net6.0\DalChessMeet.pdb
+D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\DalChessMeet\obj\Debug\net6.0\ref\DalChessMeet.dll
