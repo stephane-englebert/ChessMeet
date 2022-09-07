@@ -43,7 +43,7 @@ namespace DalChessMeet.Repositories
             using SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             using SqlCommand cmd = connection.CreateCommand();
-            cmd.CommandText = @"INSERT INTO [Tournaments](guid,name,place,players_min,players_max,elo_min,elo_max,categories,status,current_round,women_only,end_registration) 
+            cmd.CommandText = @"INSERT INTO [Tournaments](guid,name,place,players_min,players_max,elo_min,elo_max,categories,status,current_round,women_only,created_at,end_registration,updated_at) 
             VALUES(
                 @guid,
                 @name,
@@ -56,9 +56,11 @@ namespace DalChessMeet.Repositories
                 @status,
                 @current_round,
                 @women_only,
-                @end_registration
+                @created_at,
+                @end_registration,
+                @updated_at
             )";
-            cmd.Parameters.AddWithValue("guid",tournament.Guid);
+            cmd.Parameters.AddWithValue("guid", tournament.Guid);
             cmd.Parameters.AddWithValue("name", tournament.Name);
             cmd.Parameters.AddWithValue("place", tournament.Place);
             cmd.Parameters.AddWithValue("players_min", tournament.PlayersMin);
@@ -69,7 +71,30 @@ namespace DalChessMeet.Repositories
             cmd.Parameters.AddWithValue("status", tournament.Status);
             cmd.Parameters.AddWithValue("current_round", tournament.CurrentRound);
             cmd.Parameters.AddWithValue("women_only", tournament.WomenOnly);
+            cmd.Parameters.AddWithValue("created_at", tournament.CreatedAt);
             cmd.Parameters.AddWithValue("end_registration", tournament.EndRegistration);
+            cmd.Parameters.AddWithValue("updated_at", tournament.UpdatedAt);
+            cmd.ExecuteNonQuery();
+        }
+
+        public bool ExistGuid(Guid g)
+        {
+            using SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+            SqlCommand cmd = connection.CreateCommand();
+            cmd.CommandText = @"SELECT COUNT(*) FROM [Tournaments] WHERE guid = @gd";
+            cmd.Parameters.AddWithValue("gd", g);
+            int cpt = (int)cmd.ExecuteScalar();
+            return (cpt > 0);
+        }
+
+        public void DeleteTournament(Guid g)
+        {
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+            SqlCommand cmd = connection.CreateCommand();
+            cmd.CommandText = @"SELECT COUNT(*) FROM [Tournaments] WHERE guid = @gd AND status='waitingForPlayers'";
+            cmd.Parameters.AddWithValue("gd", g);
             cmd.ExecuteNonQuery();
         }
     }
