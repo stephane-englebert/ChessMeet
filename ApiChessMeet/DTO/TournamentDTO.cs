@@ -9,7 +9,7 @@
         public int PlayersMax { get; set; }
         public int EloMin { get; set; }
         public int EloMax { get; set; }
-        public string Categories { get; set; } = string.Empty;
+        public string[] Categories { get; set; }
         public string Status { get; set; } = string.Empty;
         public int CurrentRound { get; set; }
         public bool WomenOnly { get; set; }
@@ -24,7 +24,7 @@
             PlayersMax = tournament.PlayersMax;
             EloMin = tournament.EloMin;
             EloMax = tournament.EloMax;
-            Categories = tournament.Categories;
+            Categories = tournament.Categories.Split(',');
             Status = tournament.Status;
             CurrentRound = tournament.CurrentRound;
             WomenOnly = tournament.WomenOnly;

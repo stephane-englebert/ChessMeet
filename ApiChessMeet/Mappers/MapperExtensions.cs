@@ -15,5 +15,21 @@ namespace ApiChessMeet.Mappers
                 Elo = dto.Elo
             };
         }
+
+        public static DalChessMeet.Entities.Tournament FormToDalTournaments(this TournamentFormDTO dto)
+        {
+            return new DalChessMeet.Entities.Tournament{
+                Name = dto.Name,
+                Place = dto.Place,
+                PlayersMin = dto.PlayersMin,
+                PlayersMax = dto.PlayersMax,
+                EloMin = dto.EloMin,
+                EloMax = dto.EloMax,
+                Categories = dto.Categories,
+                CurrentRound = dto.CurrentRound,
+                WomenOnly = dto.WomenOnly,
+                EndRegistration = dto.EndRegistration
+            };
+        }
     }
 }

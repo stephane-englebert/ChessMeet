@@ -4,3 +4,13 @@ D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\Ches
 D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ChessDB\obj\Debug\ChessDB.sqlproj.AssemblyReference.cache
 D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ChessDB\obj\Debug\ChessDB.dll
 D:\Desktop\One Drive\OneDrive\Technofutur\dotnet\LABO\Projet\Back\ChessMeet\ChessDB\obj\Debug\ChessDB.pdb
+C:\Users\steph\Desktop\github\ChessMeet\ChessDB\bin\Debug\ChessDB.dacpac
+C:\Users\steph\Desktop\github\ChessMeet\ChessDB\bin\Debug\ChessDB.dll
+C:\Users\steph\Desktop\github\ChessMeet\ChessDB\bin\Debug\ChessDB.pdb
+C:\Users\steph\Desktop\github\ChessMeet\ChessDB\obj\Debug\ChessDB.sqlproj.AssemblyReference.cache
+C:\Users\steph\Desktop\github\ChessMeet\ChessDB\obj\Debug\Model.xml
+C:\Users\steph\Desktop\github\ChessMeet\ChessDB\obj\Debug\refactor.xml
+C:\Users\steph\Desktop\github\ChessMeet\ChessDB\obj\Debug\postdeploy.sql
+C:\Users\steph\Desktop\github\ChessMeet\ChessDB\obj\Debug\predeploy.sql
+C:\Users\steph\Desktop\github\ChessMeet\ChessDB\obj\Debug\ChessDB.dll
+C:\Users\steph\Desktop\github\ChessMeet\ChessDB\obj\Debug\ChessDB.pdb
