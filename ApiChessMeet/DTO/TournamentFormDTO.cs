@@ -13,22 +13,23 @@ namespace ApiChessMeet.DTO
         public string Place { get; set; } = string.Empty;
         
         [Required]
+        [Range(2,32)]
         public int PlayersMin { get; set; }
 
         [Required]
+        [Range(2,32)]
         public int PlayersMax { get; set; }
         
         [Required]
+        [Range(0,3000)]
         public int EloMin { get; set; }
 
         [Required]
+        [Range(0,3000)]
         public int EloMax { get; set; }
         
         [Required]
-        public string Categories { get; set; }
-
-        [Required]
-        public int CurrentRound { get; set; }
+        public string Categories { get; set; } = String.Empty;
 
         [Required]
         public bool WomenOnly { get; set; }

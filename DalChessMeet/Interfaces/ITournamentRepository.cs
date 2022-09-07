@@ -10,5 +10,7 @@ namespace DalChessMeet.Interfaces
     {
         IEnumerable<Entities.Tournament> GetTournaments();
         void AddTournament(Entities.Tournament tournament);
+        bool ExistGuid(Guid g);
+        void DeleteTournament(Guid id);
     }
 }

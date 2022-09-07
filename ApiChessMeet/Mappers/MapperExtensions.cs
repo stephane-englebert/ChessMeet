@@ -26,7 +26,6 @@ namespace ApiChessMeet.Mappers
                 EloMin = dto.EloMin,
                 EloMax = dto.EloMax,
                 Categories = dto.Categories,
-                CurrentRound = dto.CurrentRound,
                 WomenOnly = dto.WomenOnly,
                 EndRegistration = dto.EndRegistration
             };
